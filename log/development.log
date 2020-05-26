@@ -84,3 +84,12 @@ Processing by PostsController#edit as HTML
 Completed 200 OK in 36ms (Views: 33.6ms | ActiveRecord: 0.1ms)
 
 
+Started GET "/posts" for 71.89.235.63 at 2020-05-26 04:05:57 +0000
+Cannot render console from 71.89.235.63! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (1.0ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (14.8ms)
+Completed 200 OK in 44ms (Views: 37.7ms | ActiveRecord: 2.1ms)
+
+
